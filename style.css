@@ -1,0 +1,85 @@
+* {
+  margin: 2px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: thistle;
+  color: black;
+}
+
+h1{
+  color: darkslategray;
+  text-align: center;
+}
+
+h2{
+  color: saddlebrown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* nav */
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: underline;
+  font-size: larger;
+  color: #333;
+  margin: 0 10px;
+}
+nav a:hover {
+  color: slategray;
+}
+
+/* image */
+img {
+  display: block;
+  margin: auto auto;
+  border-radius: 10%;
+  transition: transform 0.3s ease;
+}
+/*  class=general */
+.general{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+/* Projects table styling */
+.schedule_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table border */
+.schedule_table,
+.schedule_table th,
+.schedule_table td {
+  border: 1px solid #333;
+}
+
+/* Cell padding */
+.schedule_table th,
+.schedule_table td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table header background */
+.schedule_table th {
+  background-color: slategray;
+  color: turquoise;
+}
+
+/* Alternating row colors */
+.schedule_table tbody tr:nth-child(even) {
+  background-color: snow;
+}
+
